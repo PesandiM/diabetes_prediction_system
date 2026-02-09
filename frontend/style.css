@@ -1,0 +1,36 @@
+[data-testid="stAppViewContainer"] {
+    background-color: #f8f9fa;
+}
+
+.main-title {
+    color: #2c3e50;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.stButton>button {
+    width: 100%;
+    background-color: #2ecc71 !important;
+    color: white !important;
+    border-radius: 8px;
+    height: 3em;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.prediction-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-top: 5px solid #2ecc71;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: -10px;
+}
