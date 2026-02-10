@@ -1,0 +1,42 @@
+.stApp {
+    background-color: #f8f9fa !important;
+}
+
+.main-title {
+    color: #2c3e50 !important;
+    text-align: center;
+    font-weight: 800;
+    padding: 2rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div[st-attribute="secondary-button"] > button,
+.stButton > button {
+    width: 100% !important;
+    background-color: #2ecc71 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: none !important;
+    transition: 0.3s all ease;
+    font-weight: bold !important;
+}
+
+.stButton > button:hover {
+    background-color: #27ae60 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.prediction-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px solid #eee;
+    animation: fadeIn 0.5s ease-in; /* Adds a nice fade effect */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
